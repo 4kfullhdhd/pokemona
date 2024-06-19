@@ -1,0 +1,10 @@
+# Метод класса для получения информации
+    def info(self):
+        return f"Имя твоего покеомона: {self.name}"
+    
+    def hepe(self):
+        return f"здоровье твоего покемона: {self.hp}"
+
+    # Метод класса для получения картинки покемона
+    def show_img(self):
+        return self.img
